@@ -248,7 +248,7 @@ spec:
       volumes:
       - name: mongonfsvol
         nfs:
-         server: 172.31.9.244
+         server: 172.31.9.254 #private nfs server ip not public ip remember private ip
          path: /mnt/nfs_share
 
 ---

@@ -292,4 +292,5 @@ spec:
 
 
 
-NOTE: pls change the cluster name and apply.
+NOTE: pls change the cluster name and apply. - Row 275
+- --node-group-auto-discovery=asg:tag=k8s.io/cluster-autoscaler/enabled,k8s.io/cluster-autoscaler/my-demo-cluster 
